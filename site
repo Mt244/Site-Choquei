@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Choquei</title>
+</head>
+    <style>
+        body {
+    background-color: black; /* Define a cor de fundo como preto */
+}
+        header{
+            background-color: black;
+            padding: 30px;
+            border-radius: 4px;
+            font-size: 34px;
+            color: whitesmoke;
+            text-align: center;
+        }
+       main{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+       }
+       aside{
+        background-color: black;
+            padding: 30px;
+            border-radius: 4px;
+            font-size: 30px;
+            color: whitesmoke;
+            text-align: center;
+
+       }
+       footer{
+        background-color: black;
+            padding: 30px;
+            border-radius: 4px;
+            font-size: 30px;
+            color: whitesmoke;
+            text-align: center
+       }
+       .imagem{
+        width: 50px; 
+            height: auto;
+       }
+       .choque{
+        width: 50px; 
+        height: auto;
+    }
+        
+    </style>
+<body>
+    <header>
+    <b> Portal Choquei</b>
+    </header>
+    <main>
+        <img src="img/kenye.jpg" alt="kenye west">
+    </main>
+    <aside>
+        <p>EX DE KENYE WEST DIZ QUE RAPPER GOSTAVA DE FIO TERRA</p> 
+        <a href="https://www.youtube.com/watch?v=CtIXohmIvyQ"><img src="img/choquei.png" alt="choquei" class="choque"></a>
+        <p>clique em nossa logo para saber mais sobre o ocorrido</p>
+    </aside>
+    <footer>
+        <div class="elemento">
+            <p>Conheça mais sobre a gente</p>
+            <a href="https://www.instagram.com/7kmateus/?locale=zh_tw&hl=ar"><img src="img/R.png" alt="logo" class="imagem"></a>
+        </div>
+    </footer>
+</body>
+</html>
